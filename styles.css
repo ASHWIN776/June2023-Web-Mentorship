@@ -1,0 +1,29 @@
+
+/*html, body{
+    box-sizing: border-box;
+    border: 2px solid;
+    margin: 0;
+}
+
+*, *::after, *::before{
+    box-sizing: inherit;
+} */
+
+.div{
+    margin: 30px;
+    height: 200px;
+    width: 200px;
+    border: 10px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box1{
+    border-color: red;
+    box-sizing: border-box;
+}
+
+#box2{
+    border-color:black;
+}

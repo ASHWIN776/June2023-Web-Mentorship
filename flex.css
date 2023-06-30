@@ -1,0 +1,33 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*, *::after, *::before{
+    box-sizing: inherit;
+}
+
+/* Body elements styles starts here*/
+
+.box-container{
+    border: 2px solid red;
+    height: 300px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    flex-wrap: wrap;
+}
+
+.box{
+    height: 200px;
+    flex-basis: 40%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+

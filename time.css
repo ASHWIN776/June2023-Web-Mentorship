@@ -12,7 +12,14 @@ html, body{
   margin: 0;
 }
 
-/* Section styles */
+/* Page Content styles */
+
+main{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 h3{
   font-size: 2rem;
@@ -20,7 +27,7 @@ h3{
 }
 
 #dashboard{
-  margin: 40px auto;
+  margin: 0 auto;
   padding: 32px;
   display: grid;
   grid-template-columns: repeat(4, 200px);
@@ -94,12 +101,6 @@ h3{
   cursor: pointer;
 }
 
-.card-container > div{
-  display: flex;
-  flex-direction: column;  
-  row-gap: 20px;
-}
-
 .card-title-box{
   display: flex;
   justify-content: space-between;
@@ -114,6 +115,9 @@ h3{
 .card{
   padding: 16px 20px;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;  
+  row-gap: 20px;
 }
 
 .small{
